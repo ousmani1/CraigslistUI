@@ -35,7 +35,7 @@
 }
 
 #Distance{
-    padding-top: 5%;
+    padding-top: 10%;
     align-content: center;
 }
 
@@ -65,8 +65,7 @@
 #Price{
     width: 6em;
     height: 1em;
-    padding-top: 5%;
-    padding-bottom: 25%;
+    padding-top: 10%;
 }
 
 #Min{
@@ -80,6 +79,21 @@
     width: 6em;
     height: 1em;
 }
+
+#Condition{
+    padding-top: 40%;
+}
+
+#UpdateSearch{
+    align-content: center;
+    text-align: center;
+    padding-top: 20%;
+}
+
+#ResetFilters{
+    padding-top: 5%;
+}
+
 
 .right{
     padding-right: 20%;

@@ -27,12 +27,12 @@
     <div class="item">
         <div id="CategoryHeader">
             <h3>category</h3>
-          </div>
+        </div>
 
       <div class="small ui buttons">
-        <div class="ui button active">all</div>
-        <div class="ui button">owner</div>
-        <div class="ui button">dealer</div>
+        <div class="ui blue button active">all</div>
+        <div class="ui blue button">owner</div>
+        <div class="ui blue button">dealer</div>
       </div>
 
       <div class="ui checked checkbox">
@@ -75,7 +75,7 @@
             <input type="text" placeholder="miles" id="Miles">
             
             <input type="text" placeholder="zip" id=Zip>
-            <i class="location arrow icon"></i>
+            <i class="location arrow blue icon"></i>
         </div>
       </div>
 
@@ -94,37 +94,51 @@
 
           <div class="ui checked checkbox">
               <input type="checkbox" checked="">
-              <label id="Label">search titles only</label>
+              <label id="Label">new</label>
           </div>
     
           </br>
     
           <div class="ui checked checkbox">
               <input type="checkbox" checked="">
-              <label id="Label">has title</label>
+              <label id="Label">like new</label>
           </div>
     
           </br>
     
           <div class="ui checked checkbox">
               <input type="checkbox" checked="">
-              <label id="Label">posted today</label>
+              <label id="Label">excellent</label>
           </div>
     
           </br>
     
           <div class="ui checked checkbox">
             <input type="checkbox" checked="">
-            <label id="Label">bundle duplicates</label>
+            <label id="Label">good</label>
+          </div>
+
+          </br>
+
+          <div class="ui checked checkbox">
+              <input type="checkbox" checked="">
+              <label id="Label">fair</label>
           </div>
     
           </br>
     
           <div class="ui checked checkbox" id="LastCheckbox">
             <input type="checkbox" checked="">
-            <label id="Label">include nearby areas</label>
+            <label id="Label">poor</label>
           </div> 
               
+      </div>
+
+      <div id="UpdateSearch">
+          <button class="huge ui blue button" id="UpdateButton">
+              Update Search
+          </button>
+          <a><h3 id="ResetFilters">Reset Filters</h3></a>
       </div>
       
     </div>
