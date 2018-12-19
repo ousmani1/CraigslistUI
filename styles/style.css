@@ -1,0 +1,94 @@
+.ui.sidebar.inverted.vertical.menu{
+    background-color: #34465a;
+}
+
+#SidebarHeader{
+    text-align: center;
+    background-color: #293949;
+    border: none;
+}
+
+.ui.search{
+    padding-top: 10%; 
+    padding-bottom: 10%;
+}
+
+.ui.button{
+    align-content: center;
+    background-color: white;
+    color:grey;
+}
+
+#CategoryHeader{
+    padding-bottom: 10%;
+    /*text-align: center;*/
+    color:white;
+}
+
+
+.small.ui.buttons{
+     padding-bottom: 10%;
+}
+
+.ui.checked.checkbox{
+    padding-bottom: 5%;
+}
+
+#Distance{
+    padding-top: 5%;
+    align-content: center;
+}
+
+#Label{
+    color:white;
+}
+
+
+#Miles{
+    width: 6em;
+    height: 1em;
+    margin-right: 5%;
+}
+
+#Zip{
+    width: 6em;
+    height: 1em;
+}
+
+.location.arrow.icon{
+    margin-left: 5%;
+    margin-top: 3%;
+    /*color: #C0C1C2;*/
+    color: #96abc0;
+}
+
+#Price{
+    width: 6em;
+    height: 1em;
+    padding-top: 5%;
+}
+
+#Min{
+    width: 6em;
+    height: 1em;
+    margin-right: 5%;
+    
+}
+
+#Max{
+    width: 6em;
+    height: 1em;
+}
+
+.right{
+    padding-right: 20%;
+}
+
+.ui.menu{
+    /*background-color: #EEEEEE;*/
+}
+
+#menu-icon{
+    padding-right: 50%;
+    
+}
