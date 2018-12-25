@@ -25,7 +25,6 @@
     color:white;
 }
 
-
 .small.ui.buttons{
      padding-bottom: 10%;
 }
@@ -107,3 +106,32 @@
     padding-right: 50%;
     
 }
+
+.ui.four.column.grid{
+    padding-left: 10%;
+}
+
+.card{
+    color: '';
+    -webkit-transition: color 0.1s ease;
+    transition: color 0.1s ease;
+    transform:scale(0.9,0.9);
+  }
+
+
+/* Generic */
+/*.ui.cards > .card > .content a:not(.ui),
+.ui.card > .content a:not(.ui) {
+  color: '';
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+  padding-left: 15%;
+}
+.ui.cards > .card > .content a:not(.ui):hover,
+.ui.card > .content a:not(.ui):hover {
+  color: '';
+
+  padding-left: 15%;
+
+}*/
+

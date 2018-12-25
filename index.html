@@ -12,6 +12,7 @@
     <script src="styles/Semantic-UI-CSS-master/semantic.min.js"></script>
 </head>
 <body>
+  <!--Sidebar-->
   <div class="ui sidebar inverted vertical menu large borderless">
     <div class="item" id="SidebarHeader">
      <h1>craigslist</h1>
@@ -144,10 +145,13 @@
     </div>
 
   </div>
+  <!--Sidebar-->
 
 
   <div class="pusher">
   <!-- Site content !-->
+
+  <!--Menu-->
     <div class="ui menu small scale down">
       <a class="item active">
         Region
@@ -168,7 +172,35 @@
           </div>
         </div>
       </div>
+     <!--Menu-->
+
+     <!---Top Row -->
+    <div class="ui four column grid">
+      <div class="three wide column">
+        <div class="ui card">
+        </div>
+      </div>
+
+      <div class="three wide column">
+        <div class="ui card">
+        </div> 
+      </div>
+
+      <div class="three wide column">
+          <div class="ui card">
+          </div> 
+      </div>
+
+      <div class="three wide column">
+            <div class="ui card">
+            </div> 
+      </div>
     </div>
+    <!---Top Row-->
+
+
+
+
   </div>
   
   <script>
@@ -177,6 +209,28 @@
     closable: false,
     //transition: 'overlay'
   }).sidebar('show');
+
+
+  $('.ui.card').html("<div id=\"CardImage\" class=\"blurring dimmable image\">" +
+                  "<div class=\"ui dimmer\">" +
+                    "<div class=\"content\">" +
+                      "<div class=\"center\">" +
+                        "<div class=\"ui inverted button\">Call to Action</div>" +
+                      "</div>" +
+                    "</div>" +
+                  "</div>" +
+                  "<img src=\"https://germini.info/semantic/images/wireframe/image.png\">" +
+                "</div>" +
+                "<div class=\"content\">" +
+                  "<a class=\"header\">Name</a>" +
+                  "<div class=\"meta\">" +
+                    "<span class=\"date\">Date</span>" +
+                  "</div>" +
+                "</div>");    
+
+    $('.card .image').dimmer({
+        on: 'hover'
+    });
   </script>
 </body>
 </html>
