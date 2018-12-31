@@ -109,6 +109,7 @@
 
 .ui.four.column.grid{
     padding-left: 10%;
+    column-gap: 40px;
 }
 
 .card{
@@ -117,6 +118,7 @@
     transition: color 0.1s ease;
     transform:scale(0.9,0.9);
   }
+
 
 
 /* Generic */
