@@ -4,16 +4,16 @@
     <meta charset="utf-8" />
     <title>Craigslist Redesign</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/Semantic-UI-CSS-master/semantic.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/Semantic-UI-CSS-master/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/style.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous">
     </script>
-    <script src="styles/Semantic-UI-CSS-master/semantic.min.js"></script>
+    <script src="style/Semantic-UI-CSS-master/semantic.min.js"></script>
 </head>
 <body>
   <!--Sidebar-->
-  <div class="ui sidebar inverted vertical menu large borderless">
+  <div class="ui sidebar inverted vertical menu large">
     <div class="item" id="SidebarHeader">
      <h1>craigslist</h1>
      <div class="small ui search">
@@ -30,7 +30,7 @@
             <h3>category</h3>
         </div>
 
-      <div class="small ui buttons">
+      <div class="tiny ui buttons">
         <div class="ui blue button active">all</div>
         <div class="ui blue button">owner</div>
         <div class="ui blue button">dealer</div>
@@ -136,10 +136,10 @@
       </div>
 
       <div id="UpdateSearch">
-          <button class="huge ui blue button" id="UpdateButton">
+          <button class="large ui blue button" id="UpdateButton">
               Update Search
           </button>
-          <a><h3 id="ResetFilters">Reset Filters</h3></a>
+          <a><h4 id="ResetFilters">Reset Filters</h4></a>
       </div>
       
     </div>
@@ -152,7 +152,7 @@
   <!-- Site content !-->
 
   <!--Menu-->
-    <div class="ui menu small scale down stackable">
+    <div class="ui menu medium scale down stackable">
       <a class="item active">
         Region
       </a>
@@ -175,25 +175,20 @@
      <!--Menu-->
 
     <!---Top Row -->
-    <div class="ui four column grid stackable">
-      <div class="three wide column">
+    <div class="ui three column grid stackable" id="TopRow">
+      <div class="four wide column">
         <div class="ui card">
         </div>
       </div>
 
-      <div class="three wide column">
+      <div class="four wide column">
         <div class="ui card">
         </div> 
       </div>
 
-      <div class="three wide column">
+      <div class="four wide column">
           <div class="ui card">
           </div> 
-      </div>
-
-      <div class="three wide column">
-            <div class="ui card">
-            </div> 
       </div>
     </div>
     <!---Top Row-->
@@ -201,51 +196,41 @@
   </br>
 
   <!--Middle Row-->
-    <div class="ui four column grid stackable">
-        <div class="three wide column">
-          <div class="ui card">
-          </div>
-        </div>
-  
-        <div class="three wide column">
-          <div class="ui card">
-          </div> 
-        </div>
-  
-        <div class="three wide column">
-            <div class="ui card">
-            </div> 
-        </div>
-  
-        <div class="three wide column">
-              <div class="ui card">
-              </div> 
-        </div>
+  <div class="ui three column grid stackable" id="MiddleRow">
+    <div class="four wide column">
+      <div class="ui card">
       </div>
+    </div>
+
+    <div class="four wide column">
+      <div class="ui card">
+      </div> 
+    </div>
+
+    <div class="four wide column">
+        <div class="ui card">
+        </div> 
+    </div>
+  </div>
     <!--Middle Row-->
 
     <!--Bottom Row-->
-      <div class="ui four column grid stackable">
-          <div class="three wide column">
-            <div class="ui card">
-            </div>
-          </div>
-    
-          <div class="three wide column">
-            <div class="ui card">
-            </div> 
-          </div>
-    
-          <div class="three wide column">
-              <div class="ui card">
-              </div> 
-          </div>
-    
-          <div class="three wide column">
-                <div class="ui card">
-                </div> 
-          </div>
+    <div class="ui three column grid stackable" id="BottomRow">
+      <div class="four wide column">
+        <div class="ui card">
         </div>
+      </div>
+
+      <div class="four wide column">
+        <div class="ui card">
+        </div> 
+      </div>
+
+      <div class="four wide column">
+          <div class="ui card">
+          </div> 
+      </div>
+    </div>
       <!--Bottom Row-->
 
 

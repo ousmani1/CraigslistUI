@@ -5,7 +5,8 @@
 #SidebarHeader{
     text-align: center;
     background-color: #293949;
-    border: none;
+    width: 100%;
+    /*border: none;*/
 }
 
 .ui.search{
@@ -20,13 +21,13 @@
 }
 
 #CategoryHeader{
-    padding-bottom: 10%;
-    /*text-align: center;*/
+    padding-bottom: 5%;
+    text-align: center;
     color:white;
 }
 
-.small.ui.buttons{
-     padding-bottom: 10%;
+.tiny.ui.buttons{
+     padding-bottom: 5%;
 }
 
 .ui.checked.checkbox{
@@ -34,7 +35,7 @@
 }
 
 #Distance{
-    padding-top: 10%;
+    padding-top: 5%;
     align-content: center;
 }
 
@@ -64,7 +65,7 @@
 #Price{
     width: 6em;
     height: 1em;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #Min{
@@ -80,13 +81,13 @@
 }
 
 #Condition{
-    padding-top: 40%;
+    padding-top: 30%;
 }
 
 #UpdateSearch{
     align-content: center;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 7%;
 }
 
 #ResetFilters{
@@ -107,16 +108,24 @@
     
 }
 
-.ui.four.column.grid{
-    padding-left: 10%;
-    column-gap: 40px;
+.ui.three.column.grid.stackable {
+    padding-left: 8%;
+    /*column-gap: 40px;*/
+}
+
+#TopRow {
+    padding-top: 1%;
+}
+
+#BottomRow {
+    padding-bottom: 1%;
 }
 
 .card{
     color: '';
     -webkit-transition: color 0.1s ease;
     transition: color 0.1s ease;
-    transform:scale(0.9,0.9);
+    transform:scale(0.95,0.95);
   }
 
 
